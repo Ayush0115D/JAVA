@@ -1,12 +1,14 @@
-//inverted half pyramid with numbers
+//floyd triangle
 import java.util.*;
-public class pattern7 {
+public class pattern8 {
    public static void main(String args[]) {
        int n = 5;
-      
+       int number = 1;
+
        for(int i=1; i<=n; i++) {
-           for(int j=1; j<=n-i+1; j++) {
-               System.out.print(j);
+           for(int j=1; j<=i; j++) {
+               System.out.print(number+" ");
+               number++;
            }
            System.out.println();
        }

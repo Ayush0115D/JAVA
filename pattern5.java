@@ -1,3 +1,4 @@
+//inverted half-pyramid rotated by180°
 import java.util.*;
 public class pattern5{
    public static void main(String args[]) {

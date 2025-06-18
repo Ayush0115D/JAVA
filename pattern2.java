@@ -1,3 +1,4 @@
+//Hollow rectangle
 import java.util.*;
 public class pcattern2 {
    public static void main(String args[]) {
