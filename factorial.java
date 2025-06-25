@@ -1,6 +1,4 @@
-​​import java.util.*;
-
-
+import java.util.Scanner;
 public class factorial {
    // public static int calculateSum(int a, int b) {
    //     int sum = a + b;
@@ -20,20 +18,16 @@ public class factorial {
        }
        int factorial = 1;
 
-
        for(int i=n; i>=1; i--) {
            factorial = factorial * i;
        }
 
-
        System.out.println(factorial);
        return;
-    }
-   public static void main(String args[]) {
+   }
+  public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
-
-
        printFactorial(n);
    }
 }
